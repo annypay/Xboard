@@ -5,6 +5,7 @@ namespace App\Payments;
 use \Curl\Curl;
 
 class TokenPay {
+    protected $config;
     public function __construct($config)
     {
         $this->config = $config;
